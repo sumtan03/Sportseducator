@@ -1,0 +1,10 @@
+sentence-transformers
+scikit-learn
+transformers
+torch
+openai
+python-docx
+sentence-transformers
+numpy
+pandas
+faiss-cpu
