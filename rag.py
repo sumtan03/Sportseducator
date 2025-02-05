@@ -13,7 +13,7 @@ class RAG:
         self.openai_api_key = openai_api_key
         self.embeddings_folder = embeddings_folder
         self.model = SentenceTransformer("all-MiniLM-L6-v2")
-        self.docs_folder="C:/Users/staneja/Cap-test/Assignment/docs"
+        self.docs_folder=""
 
     def sliding_window_chunk(self,text, chunk_size=1000, overlap=200):
         words = text.split()

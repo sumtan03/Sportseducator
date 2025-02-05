@@ -5,7 +5,7 @@ from document_loader import save_embeddings_to_csv
 from rag import RAG
 from sentence_transformers import SentenceTransformer
 
-OPENAI_API_KEY = "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"  
+OPENAI_API_KEY = ""  
 #DOCUMENTS_PATH = "documents"  # Folder containing .docx files
 
 def main():
@@ -33,5 +33,5 @@ def main():
         print("\nAnswer:", response)
 
 if __name__ == "__main__":
-    openai_api_key="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"
+    openai_api_key=""
     main()

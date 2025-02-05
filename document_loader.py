@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 import fitz
 
-def load_documents_from_folder(folder_path="C:/Users/staneja/Cap-test/Assignment/docs"):
+def load_documents_from_folder(folder_path=""):
     """
     Reads all .txt files from the specified folder and returns a list of document contents.
     """
@@ -58,7 +58,7 @@ def save_embeddings_to_csv(embeddings, folder="embeddings"):
 
 if __name__ == "__main__":
     # For quick testing of document loading:
-    docs = load_documents_from_folder("C:/Users/staneja/Cap-test/Assignment/docs")
+    docs = load_documents_from_folder("")
     print("Loaded Documents:")
     #print(docs)
     for idx, doc in enumerate(docs, 1):
